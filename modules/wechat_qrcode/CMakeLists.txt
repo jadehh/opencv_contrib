@@ -28,7 +28,7 @@ foreach(model_name ${model_names})
                         URL
                         "${OPENCV_WECHAT_QRCODE_URL}"
                         "$ENV{OPENCV_WECHAT_QRCODE_URL}"
-                        "https://raw.githubusercontent.com/WeChatCV/opencv_3rdparty/${wechat_qrcode_commit_hash}/"
+                        "https://gh.con.sh/https://raw.githubusercontent.com/WeChatCV/opencv_3rdparty/${wechat_qrcode_commit_hash}/"
                         DESTINATION_DIR "${CMAKE_BINARY_DIR}/downloads/wechat_qrcode"
                         ID "wechat_qrcode"
                         RELATIVE_URL
