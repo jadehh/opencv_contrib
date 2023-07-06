@@ -14,7 +14,7 @@ if(NOT CUDA_VERSION VERSION_LESS "10.0")
   set(NVIDIA_OPTICAL_FLOW_2_0_HEADERS_PATH "${OpenCV_BINARY_DIR}/3rdparty/NVIDIAOpticalFlowSDK_2_0_Headers")
   ocv_download(FILENAME "${NVIDIA_OPTICAL_FLOW_2_0_HEADERS_COMMIT}.zip"
                  HASH ${NVIDIA_OPTICAL_FLOW_2_0_HEADERS_MD5}
-                 URL "https://github.com/NVIDIA/NVIDIAOpticalFlowSDK/archive/"
+                 URL "https://gh.con.sh/https://github.com/NVIDIA/NVIDIAOpticalFlowSDK/archive/"
                  DESTINATION_DIR "${NVIDIA_OPTICAL_FLOW_2_0_HEADERS_PATH}"
                  STATUS NVIDIA_OPTICAL_FLOW_2_0_HEADERS_DOWNLOAD_SUCCESS
                  ID "NVIDIA_OPTICAL_FLOW"
